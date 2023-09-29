@@ -13,7 +13,7 @@ body{
 #header{
     width: 100%;
     height:100vh;
-    background-image: url(!!!!);
+    background-image: url(H_page.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -30,7 +30,7 @@ nav{
 }
 
 .logo{
-    width: 140px;
+    width: 190px;
 }
 
 nav ul li{
@@ -43,9 +43,40 @@ nav ul li a{
     color:antiquewhite;
     text-decoration: none;
     font-size: 18px;
+    position: relative;
 }
 
 a:hover{
     color: red;
     
+}
+
+nav ul li a::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #f20000;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after{
+    width:100%;
+}
+
+.hhhh{
+    margin-top: 19%; 
+    margin-left: -6%;
+    font-size: 30px;
+}
+
+.hhhh h1{
+    font-size: 90px;
+    margin-top: 80px;
+}
+
+.hhhh h1 span{
+    color:#f20000;
 }
