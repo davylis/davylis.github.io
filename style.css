@@ -390,4 +390,36 @@ nav .fa-solid{
         cursor: context-menu;
         transition: opacity 0.5s;
     }
+    .sub-title{
+        font-size: 50px;
+    }
+    .about_1, .about_2{
+        flex-basis: 100%;
+    }
+    .about_1{
+        margin-bottom: 30px;
+    }
+    .about_2{
+        font-size: 16px;
+    }
+    .tab-links{
+        font-size: 20px;
+        margin-right: 25%;
+    }
+    .contact-left, .contact-right{
+        flex-basis: 100%;
+    }
+    .contact-left{
+        display: flex;
+        flex-direction: column; 
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    .copyright{
+        font-size: 13px;
+
+    }
+
 }
