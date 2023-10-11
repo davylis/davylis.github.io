@@ -10,3 +10,11 @@ function opentab(tabname){
      event.currentTarget.classList.add("active-link");
      document.getElementById(tabname).classList.add("active-tab");
 }
+
+function sendEmail() {
+    let name = document.getElementById("name").value;
+    let email = "liismauttonen@gmail.com"
+    let message = document.getElementById("message").value;
+    window.open('mailto:'+email+'?subject='+name+'&body='+message);
+    console.log(message);
+}
