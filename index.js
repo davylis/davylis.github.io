@@ -13,8 +13,8 @@ function opentab(tabname){
 
 function sendEmail() {
     let name = document.getElementById("name").value;
-    let email = "liismauttonen@gmail.com"
+    let subject = document.getElementById("subject").value;
+    let email = "liisadavydov@gmail.com"
     let message = document.getElementById("message").value;
-    window.open('mailto:'+email+'?subject='+name+'&body='+message);
-    console.log(message);
+    window.open('mailto:'+email+'?subject='+subject+' - '+name+'&body='+message);
 }
