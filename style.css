@@ -49,7 +49,7 @@ nav ul li a{
 }
 
 a:hover{
-    color: red;
+    color: #001eff;
     
 }
 
@@ -428,4 +428,16 @@ nav .fa-solid{
 
     }
 
+}
+
+@media only screen and (max-height: 379px){
+    .hhhh h1{
+        font-size: 50px;
+    }
+    .hhhh p{
+        font-size: 17px;
+    }
+    .hhhh{
+        margin-top: 14%;
+    }
 }
