@@ -18,3 +18,15 @@ function sendEmail() {
     let message = document.getElementById("message").value;
     window.open('mailto:'+email+'?subject='+subject+' - '+name+'&body='+message);
 }
+
+var menu_bar = document.getElementById("menuBar");
+var folder_button = document.getElementById("folder");
+
+function openMenu(){
+    menu_bar.style.right = "0";
+    folder_button.style.opacity = "0";
+}
+function closeMenu(){
+    menu_bar.style.right = "-200px";
+    folder_button.style.opacity = "1";
+}
