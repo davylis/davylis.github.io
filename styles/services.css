@@ -1,0 +1,75 @@
+#services{
+    padding: 3px 0;
+}
+.services-list{
+    margin: 0 auto;
+    width: 75%;
+}
+.front, .back{
+    text-align: center;
+    color: #5358f8;
+}
+.experience{
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: 1fr 1fr;
+}
+.services-list .service{
+    background: #262626;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 12px;
+    transition: backgroung 0.5s, transform 0.5s;
+}
+.services-list div h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.services-list div a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.services-list .service:hover{
+    .language-icon{
+        color: antiquewhite;
+    }
+    .front, .back{
+        color: antiquewhite;
+    }
+    background: #001eff;
+    transform: translateY(-10px);
+}
+
+.languages{
+    grid-template-columns: auto auto auto;
+    display: grid; 
+    row-gap: 2rem;
+}
+
+.language-element{
+    display: flex;
+    gap: 1rem;
+}
+
+.language-element p{
+    margin-left: 20%;
+}
+
+.language-element div {
+    cursor: default;
+}
+.language-icon{
+    color: #0008ff;
+    font-size: 1.8rem;
+    margin-top: 15px;
+}
+.lang_icons{
+    font-size: 12px;
+}

@@ -1,0 +1,95 @@
+nav .fa-solid{
+    display: none;
+}
+@media only screen and (max-width: 638px){
+    #header{
+        background-image:url(../Images/H_page_mobile.png) ;
+    }
+    .hhhh{
+        margin-top: 18%;
+        font-size: 18px;
+    }
+    .hhhh h1{
+        font-size: 30px;
+    }
+    nav .fa-solid{
+        display: block;
+        font-size: 30px;
+    }
+    nav ul{
+        background: #0f0508cb;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 180px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 15%;
+    }
+    nav ul .fa-solid{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: alias;
+    }
+
+    #folder {
+        cursor: context-menu;
+        transition: opacity 0.5s;
+    }
+    .sub-title{
+        font-size: 50px;
+    }
+    .about_1, .about_2{
+        flex-basis: 100%;
+    }
+    .about_1{
+        margin-bottom: 30px;
+    }
+    .about_2{
+        font-size: 16px;
+    }
+    .tab-links{
+        font-size: 20px;
+        margin-right: 25%;
+    }
+    .services-list{
+        grid-gap: 50px;
+    }
+    .contact-left, .contact-right{
+        flex-basis: 100%;
+    }
+    .contact-left{
+        display: flex;
+        flex-direction: column; 
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    .copyright{
+        font-size: 13px;
+
+    }
+
+}
+
+@media only screen and (max-height: 379px){
+    .hhhh h1{
+        font-size: 50px;
+    }
+    .hhhh p{
+        font-size: 17px;
+    }
+    .hhhh{
+        margin-top: 14%;
+    }
+    .services-list{
+        grid-gap: 50px;
+    }
+}
