@@ -1,7 +1,7 @@
 nav .fa-solid{
     display: none;
 }
-@media only screen and (max-width: 638px){
+@media only screen and (max-width: 860px){
     #header{
         background-image:url(../Images/H_page_mobile.png) ;
     }
@@ -60,7 +60,7 @@ nav .fa-solid{
     }
     .experience{
         display: block;
- 
+        
     }
     .services-list{
         grid-gap: 50px;
@@ -116,7 +116,7 @@ nav .fa-solid{
     
 }
 
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 1830px){
     .hhhh{
         margin-top: 25%;
         font-size: 18px;
@@ -138,4 +138,16 @@ nav .fa-solid{
         row-gap: 2rem;
         gap: 2rem;
     }
+}
+@media only screen and (max-width: 320px){
+   
+    .language-element{
+        display: block;
+        gap: 1rem;
+        font-size: 10px;
+    }
+    .front, .back{
+        display: none;
+    }
+    
 }
