@@ -6,11 +6,11 @@ nav .fa-solid{
         background-image:url(../Images/H_page_mobile.png) ;
     }
     .hhhh{
-        margin-top: 18%;
+        margin-top: 25%;
         font-size: 18px;
     }
     .hhhh h1{
-        font-size: 30px;
+        font-size: 40px;
     }
     nav .fa-solid{
         display: block;
@@ -58,8 +58,29 @@ nav .fa-solid{
         font-size: 20px;
         margin-right: 25%;
     }
+    .experience{
+        display: block;
+ 
+    }
     .services-list{
         grid-gap: 50px;
+    }
+    .service{
+        margin-bottom: 50px;
+    }
+    .language-element{
+        display: block;
+        gap: 1rem;
+    }
+    
+    .language-element p{
+        margin-left: 20%;
+    }
+    .languages{
+        grid-template-columns: 1fr auto;
+        display: grid; 
+        row-gap: 2rem;
+        gap: 2rem;
     }
     .contact-left, .contact-right{
         flex-basis: 100%;
@@ -91,5 +112,30 @@ nav .fa-solid{
     }
     .services-list{
         grid-gap: 50px;
+    }
+    
+}
+
+@media only screen and (max-width: 900px){
+    .hhhh{
+        margin-top: 25%;
+        font-size: 18px;
+    }
+    .hhhh h1{
+        font-size: 40px;
+    }
+    .language-element{
+        display: block;
+        gap: 1rem;
+    }
+    
+    .language-element p{
+        margin-left: 20%;
+    }
+    .languages{
+        grid-template-columns: 1fr auto;
+        display: grid; 
+        row-gap: 2rem;
+        gap: 2rem;
     }
 }

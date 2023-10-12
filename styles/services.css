@@ -51,6 +51,7 @@
     grid-template-columns: auto auto auto;
     display: grid; 
     row-gap: 2rem;
+    gap: 4rem;
 }
 
 .language-element{
