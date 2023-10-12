@@ -113,7 +113,7 @@ nav ul li a:hover::after{
     font-weight: 600;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+    margin-bottom: 40px;
 }
 .tab-titles{
     display: flex;
@@ -161,11 +161,13 @@ nav ul li a:hover::after{
     margin: 0 auto;
     width: 75%;
 }
+.front, .back{
+    text-align: center;
+}
 .experience{
     display: grid;
     gap: 3rem;
     grid-template-columns: 1fr 1fr;
-
 }
 .services-list .service{
     background: #262626;
@@ -199,7 +201,7 @@ nav ul li a:hover::after{
 }
 
 .languages{
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
     display: grid; 
     row-gap: 2rem;
 }
@@ -213,14 +215,14 @@ nav ul li a:hover::after{
     margin-left: 20%;
 }
 .language-icon{
-    color: #fff;
+    color: #0008ff;
     font-size: 1.8rem;
     margin-top: 6px;
-
 }
 .lang_icons{
     font-size: 12px;
 }
+
 /*--------portfolio----------*/
 #portfolio{
     padding: 50px 0;
