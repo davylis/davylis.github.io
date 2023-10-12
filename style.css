@@ -158,10 +158,14 @@ nav ul li a:hover::after{
     padding: 3px 0;
 }
 .services-list{
+    margin: 0 auto;
+    width: 75%;
+}
+.experience{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 200px;
-    margin-top: 50px;
+    gap: 3rem;
+    grid-template-columns: 1fr 1fr;
+
 }
 .services-list .service{
     background: #262626;
@@ -171,10 +175,10 @@ nav ul li a:hover::after{
     border-radius: 12px;
     transition: backgroung 0.5s, transform 0.5s;
 }
-.services-list div i{
+/*----.services-list div i{
     font-size: 50px;
     margin-bottom: 30px;
-}
+}----*/
 .services-list div h2{
     font-size: 30px;
     font-weight: 500;
@@ -195,24 +199,25 @@ nav ul li a:hover::after{
 }
 
 .languages{
-    height: 200px;
-    display: flex; 
-    flex-wrap:wrap;
-    align-content: space-between;
+    grid-template-columns: 2fr 1fr;
+    display: grid; 
+    row-gap: 2rem;
 }
 
 .language-element{
     display: flex;
-    width: 100px;
-    margin: 2%;
-    font-size: 15px;
+    gap: 1rem;
 }
 
 .language-element p{
     margin-left: 20%;
 }
+.language-icon{
+    color: #fff;
+    font-size: 1.8rem;
+    margin-top: 6px;
 
-
+}
 .lang_icons{
     font-size: 12px;
 }
