@@ -1,6 +1,6 @@
-let mySound = new Audio('media/background_music.mp3')
-mySound.volume = 0.3;
-mySound.play()
+// let mySound = new Audio('media/background_music.mp3')
+// mySound.volume = 0.3;
+// mySound.play()
 
 var tablinks = document.getElementsByClassName("tab-links"); 
 var tabcontents = document.getElementsByClassName("tab-contents");
